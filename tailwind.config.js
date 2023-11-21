@@ -28,7 +28,8 @@ module.exports = {
         'card-nft': '17.4rem',
         'card-collector': '37rem',
         'logo-mobile': '10rem',
-        'nav-header': '48.3rem'
+        'nav-header': '48.3rem',
+        'nav-header-tablet': '42rem'
       },
       height: {
         'area-image-nft': '14.7rem'
@@ -49,8 +50,8 @@ module.exports = {
       },
     },
     screens: {
-      '@tablet': '640px',
-      '@laptop': '1024px',
+      '@tablet': '860px',
+      '@laptop': '1025px',
       '@desktop': '1280px',
     },
   },
