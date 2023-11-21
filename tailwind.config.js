@@ -28,6 +28,7 @@ module.exports = {
         'card-nft': '17.4rem',
         'card-collector': '37rem',
         'logo-mobile': '10rem',
+        'nav-header': '48.3rem'
       },
       height: {
         'area-image-nft': '14.7rem'
