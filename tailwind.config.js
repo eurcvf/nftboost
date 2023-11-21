@@ -29,7 +29,8 @@ module.exports = {
         'card-collector': '37rem',
         'logo-mobile': '10rem',
         'nav-header': '48.3rem',
-        'nav-header-tablet': '42rem'
+        'nav-header-tablet': '42rem',
+        'left-cont-footer': '20.25rem',
       },
       height: {
         'area-image-nft': '14.7rem'
@@ -50,7 +51,7 @@ module.exports = {
       },
     },
     screens: {
-      '@tablet': '860px',
+      '@tablet': '640px',
       '@laptop': '1025px',
       '@desktop': '1280px',
     },

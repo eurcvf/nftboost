@@ -19,7 +19,7 @@ export function Header() {
       <ContainerGrid className="flex items-center justify-between">
         <Image src={Logo} alt="Logo NFTBoost" className="max-w-logo-mobile"/>
 
-        <div className="hidden @tablet:flex flex-1 max-w-nav-header items-center justify-center">
+        <div className="hidden @laptop:flex flex-1 max-w-nav-header items-center justify-center">
           <nav className="flex items-center gap-12">
             {itemsNav.map((item, index) => (
               <Link href='#' key={index} className="font-medium font-inter hover:text-blue-primary transition-all ease-linear">{item}</Link>
@@ -27,9 +27,9 @@ export function Header() {
           </nav>
         </div>
 
-        <button className="hidden @tablet:flex bg-blue-primary py-3 px-7 rounded-full font-medium hover:bg-blue-700 transition-all ease-linear">Conectar carteira</button>
+        <button className="hidden @laptop:flex bg-blue-primary py-3 px-7 rounded-full font-medium hover:bg-blue-700 transition-all ease-linear">Conectar carteira</button>
 
-        <button className="w-10 h-10 flex items-center justify-center border border-white border-opacity-5 rounded bg-white bg-opacity-5 @tablet:hidden">
+        <button className="w-10 h-10 flex items-center justify-center border border-white border-opacity-5 rounded bg-white bg-opacity-5 @laptop:hidden">
           <Image src={IconMenu} alt="Icon Menu" />
         </button>
       </ContainerGrid>
