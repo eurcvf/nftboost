@@ -43,7 +43,7 @@ export function Footer() {
               <ul className="space-y-4">
                 {items.map((item, index) => (
                   <li key={index}>
-                    <a className="text-lg text-white text-opacity-70" href="#">{item}</a>
+                    <a className="text-lg text-white text-opacity-70 hover:text-blue-700 transition-all ease-linear" href="#">{item}</a>
                   </li>
                 ))}
               </ul>
