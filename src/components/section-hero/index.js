@@ -12,7 +12,7 @@ import { CardsHero } from "./cards";
 export function SectionHero() {
   return (
     <section className="pt-36 bg-hero-pattern bg-no-repeat overflow-hidden">
-      <ContainerGrid className="flex flex-col">
+      <ContainerGrid className="flex flex-col items-center">
         <h3 className="flex flex-col @tablet:flex-row items-center gap-2 text-sm @tablet:text-base @desktop:text-xl mb-3">
           <Image src={IconBoost} alt="Icon Boost"/>
           <span className="text-white text-opacity-70">Adentre um reino de possibilidades infinitas</span>
