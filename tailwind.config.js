@@ -31,6 +31,7 @@ module.exports = {
         'nav-header': '48.3rem',
         'nav-header-tablet': '42rem',
         'left-cont-footer': '20.25rem',
+        'content-desc-hero': '41.1rem',
       },
       height: {
         'area-image-nft': '14.7rem'
@@ -52,7 +53,7 @@ module.exports = {
     },
     screens: {
       '@tablet': '640px',
-      '@laptop': '1025px',
+      '@laptop': '1024px',
       '@desktop': '1280px',
     },
   },

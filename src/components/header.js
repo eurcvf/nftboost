@@ -15,7 +15,7 @@ const itemsNav = [
 
 export function Header() {
   return (
-    <header className="py-6 @tablet:py-5">
+    <header className="absolute top-0 left-0 py-6 @tablet:py-5 w-full">
       <ContainerGrid className="flex items-center justify-between">
         <Image src={Logo} alt="Logo NFTBoost" className="max-w-logo-mobile"/>
 
