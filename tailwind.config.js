@@ -21,7 +21,8 @@ module.exports = {
         'blue-primary': '#1D4FFE',
         'green-primary': '#4BCE97',
         'gray-border-nft': '#131317',
-        'gray-area-favorite': '#05030A'
+        'gray-area-favorite': '#05030A',
+        'gray-hover-btn-slide': '#07050F'
       },
       maxWidth: {
         'grid': '77.5rem',
