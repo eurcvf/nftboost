@@ -33,8 +33,13 @@ module.exports = {
         'left-cont-footer': '20.25rem',
         'content-desc-hero': '41.1rem',
       },
+      width: {
+        'area-cards-mobile': '43.75rem'
+      },
       height: {
-        'area-image-nft': '14.7rem'
+        'area-image-nft': '14.7rem',
+        'area-cards-mobile': '15.3rem',
+        'area-cards-desktop': '26.6rem'
       },
       keyframes: {
         "accordion-down": {
@@ -50,6 +55,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'hero-pattern': 'url("../assets/bg-hero.svg")'
+      }
     },
     screens: {
       '@tablet': '640px',

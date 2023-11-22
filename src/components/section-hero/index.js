@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { ContainerGrid } from "./container";
 
 import IconBoost from '@/assets/icon-boost.svg';
 
@@ -7,10 +6,12 @@ import SmallNFT from '@/assets/nft-small.png';
 import SmallDoubleNFT from '@/assets/double-nft.png'
 import GooglePlay from '@/assets/google.svg';
 import AppleStore from '@/assets/apple.svg';
+import { ContainerGrid } from "../container";
+import { CardsHero } from "./cards";
 
 export function SectionHero() {
   return (
-    <section className="pt-36">
+    <section className="pt-36 bg-hero-pattern bg-no-repeat overflow-hidden">
       <ContainerGrid className="flex flex-col">
         <h3 className="flex flex-col @tablet:flex-row items-center gap-2 text-sm @tablet:text-base @desktop:text-xl mb-3">
           <Image src={IconBoost} alt="Icon Boost"/>
@@ -31,6 +32,10 @@ export function SectionHero() {
           <Image src={GooglePlay} alt="Imagem GooglePlay" />
           <Image src={AppleStore} alt="Imagem AppleStore" />
         </div>
+
+        <CardsHero/>
+
+        <div className="w-full border-top border-white border-opacity-5 mt-10 @desktop:mt-9"></div>
       </ContainerGrid>
     </section>
   )
