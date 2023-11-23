@@ -32,7 +32,7 @@ module.exports = {
         'nav-header': '48.3rem',
         'nav-header-tablet': '42rem',
         'left-cont-footer': '20.25rem',
-        'content-desc-hero': '41.1rem',
+        'content-desc-hero': '41.1rem'
       },
       width: {
         'area-cards-mobile': '43.75rem'
@@ -40,7 +40,8 @@ module.exports = {
       height: {
         'area-image-nft': '14.7rem',
         'area-cards-mobile': '15.3rem',
-        'area-cards-desktop': '26.6rem'
+        'area-cards-desktop': '26.6rem',
+        'area-banner': '29.5rem'
       },
       keyframes: {
         "accordion-down": {
@@ -57,7 +58,8 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        'hero-pattern': 'url("../assets/bg-hero.svg")'
+        'hero-pattern': 'url("../assets/bg-hero.svg")',
+        'banner': 'url("../assets/bg-banner.svg")'
       }
     },
     screens: {

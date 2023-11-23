@@ -16,6 +16,7 @@ import NFT10 from '@/assets/nfts/10.jpg'
 import NFT11 from '@/assets/nfts/11.jpg'
 import NFT12 from '@/assets/nfts/12.jpg'
 import { SectionCollectors } from "@/components/section-collectors";
+import { SectionBanner } from "@/components/section-banner";
 
 const featureCollections = [
   {
@@ -184,6 +185,8 @@ export default function Home() {
       <hr className="border-t border-white border-opacity-5 max-w-grid" />
 
       <SectionCarrousel subtitle="Em Tendência" title="Tendências" data={featureTendencies}/>
+
+      <SectionBanner/>
     </>
   )
 }
