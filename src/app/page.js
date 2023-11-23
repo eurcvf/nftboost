@@ -15,6 +15,7 @@ import NFT09 from '@/assets/nfts/09.jpg'
 import NFT10 from '@/assets/nfts/10.jpg'
 import NFT11 from '@/assets/nfts/11.jpg'
 import NFT12 from '@/assets/nfts/12.jpg'
+import { SectionCollectors } from "@/components/section-collectors";
 
 const featureCollections = [
   {
@@ -67,7 +68,7 @@ const featureCollections = [
   },
 ]
 
-const featureSelections = [
+const featureMonth = [
   {
     name: 'Crazy Monkey #131',
     thumbnail: NFT05,
@@ -174,7 +175,14 @@ export default function Home() {
     <>
       <SectionHero/>
       <SectionCarrousel subtitle="Destaque em Coleções" title="Coleções notáveis" data={featureCollections}/>
-      <SectionCarrousel subtitle="Seleção Mensal" title="Destaque do Mês" data={featureSelections}/>
+      <hr className="border-t border-white border-opacity-5 max-w-grid" />
+
+      <SectionCarrousel subtitle="Seleção Mensal" title="Destaque do Mês" data={featureMonth}/>
+      <hr className="border-t border-white border-opacity-5 max-w-grid" />
+
+      <SectionCollectors/>
+      <hr className="border-t border-white border-opacity-5 max-w-grid" />
+
       <SectionCarrousel subtitle="Em Tendência" title="Tendências" data={featureTendencies}/>
     </>
   )
